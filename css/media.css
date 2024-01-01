@@ -1,0 +1,764 @@
+
+/* ========== Extra Extra Large Device =========== */
+@media(min-width:1400px){
+
+}
+/* ===========Extra Large Device========== */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+    .about-item1, .about-item2, .about-item3, .about-item4 {
+        padding: 30px 35px 35px 35px;
+    }
+    .about-item2{
+        margin-right: 29px;
+    }
+    .about-item3{
+        margin-left: 30px;
+    }
+
+}
+/* ===========Large Device=========== */
+@media(min-width:992px) and (max-width:1199.98px){
+    #naver .naver-menu li {
+        line-height: 80px;
+    }
+    #about {
+        padding-bottom: 45px;
+        padding-top: 60px;
+    }
+    .about-img::after {
+        border: none;
+     }
+     .about-item1::after {
+        display: none;
+    }
+    .about-item1::before {
+        display: none;
+     }
+     .about-item2::after {
+         display: none;
+     }
+     .about-item2::before {
+        display: none;
+     }
+     .about-item3::after {
+         display: none;
+     }
+     .about-item3::before {
+         display: none;
+     }
+     
+     .about-item4::after {
+        display: none;
+     }
+     .about-item4::before {
+        display: none;
+     }
+     #service {
+        padding-bottom: 70px;
+    }
+    .counter_item {
+        margin: 0 -3px;
+    }
+    .counter_item p {
+        font-size: 17px;
+    }
+
+}
+/*==========Medium Device============= */
+@media(min-width:768px) and (max-width:991.98px){
+    .navbar-brand img{
+        width: 120px;
+        margin-top: 5px;
+    }
+    #naver {
+        border-bottom: none;
+       
+    }
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: none;
+        border-color: none;
+    }
+    .navbar-nav {
+        background: rgba(0, 0, 0, 0.9);
+        margin-top: 20px;
+    }
+    #naver .naver-menu li {
+        line-height: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
+    #naver .naver-menu li a::after{
+        display: none;
+    }
+    .banner-item {
+        height: 65vh;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .banner-text {
+        height: 65vh;
+    }
+    .banner-conten h2 {
+        padding-bottom: 20px;
+    }
+    .banner-conten p {
+        max-width: 520px;
+        padding-bottom: 30px;
+    }
+    .banner-conten a {
+        padding: 15px;
+        margin: 0 5px;
+    }
+    .banner-conten a.btn-2 {
+        padding: 15px 25px;
+    }
+    #banner .left {
+        left: 300px;
+        top: 390px;
+    }
+    #banner .right {
+        right: 305px;
+        top: 390px;
+    }
+    #about {
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    .about-item1 {
+        margin-bottom: 30px;
+    }
+    .about-item2 {
+        margin-bottom: 30px;
+    }
+    .about-item3 {
+        margin-top: 30px;
+    }
+    .about-item4 {
+        margin-top: 30px;
+    }
+    .about-item1::after {
+        display: none;
+    }
+    .about-item1::before {
+        display: none;
+     }
+     .about-item2::after {
+         display: none;
+     }
+     .about-item2::before {
+        display: none;
+     }
+     .about-item3::after {
+         display: none;
+     }
+     .about-item3::before {
+         display: none;
+     }
+     
+     .about-item4::after {
+        display: none;
+     }
+     .about-item4::before {
+        display: none;
+     }
+     .about-img::after {
+        border: none;
+     }
+     #protfolio {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .heading p {
+        width: 513px;
+    }
+
+    .heading {
+        padding-bottom: 30px;
+    }
+    .heading h3 {
+        font-size: 28px;
+    }
+
+    #service {
+        padding-bottom: 50px;
+    }
+    .tex-item1::after {
+        display: none;
+    }
+    .tex-item2::after {
+        display: none;
+     }
+
+     .ser-text {
+        padding: 25px 25px 10px 25px;
+        text-align: center !important;
+        margin-bottom: 24px;
+    }
+
+    #feedback {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .feedback_main1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .feed_text_slider {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .feed_text_item h5 {
+        padding-bottom: 20px;
+    }
+    #price{
+        padding-top: 40px;
+    }
+
+    #counter{
+        transform: none;
+    }
+    .counter_item {
+        margin-bottom: 30px;
+    }
+    #team {
+        padding-top: 40px;
+    }
+    .team_item {
+        margin-bottom: 25px;
+    }
+    .socile i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    #brend {
+        transform: none;
+        margin-top: 30px;
+    }
+
+    #footer {
+        transform: none;
+        padding-top: 30px;
+        padding-bottom: 20px;
+     }
+     .footer_img {
+         padding-bottom: 0px;
+         border-bottom: none;
+     }
+     .footer_btn::after {
+        display: none;
+    }
+    .footer_item {
+        margin-top: 35px;
+    }
+    .footer_text {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    #copyright {
+        padding: 25px 0;
+        margin-top: 0px;
+    }
+
+}
+/*========  smail device ==========*/
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar-brand img{
+        width: 120px;
+        margin-top: 5px;
+    }
+    #naver {
+        border-bottom: none;
+       
+    }
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: none;
+        border-color: none;
+    }
+    .navbar-nav {
+        background: rgba(0, 0, 0, 0.9);
+        margin-top: 20px;
+    }
+    #naver .naver-menu li {
+        line-height: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
+    #naver .naver-menu li a::after{
+        display: none;
+    }
+
+    .banner-conten h4 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    .banner-conten h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .banner-conten p {
+        max-width: 435px;
+        padding-bottom: 20px;
+    }
+    .banner-item {
+        height: 55vh;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .banner-text {
+        height: 55vh;
+    }
+    .banner-conten a {
+        font-size: 14px;
+        padding: 15px;
+        margin: 0 5px;
+    }
+    .banner-conten a.btn-2 {
+        padding: 15px 20px;
+    }
+    #banner .right {
+        right: 220px;
+        top: 345px;
+    }
+    #banner .left {
+        left: 220px;
+        top: 345px;
+    }
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .heading {
+        padding-bottom: 20px;
+    }
+    .heading h3 {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+    .heading p {
+        width: 475px;
+    }
+    .about-item1 {
+        margin-bottom: 30px;
+    }
+    .about-item2 {
+        margin-bottom: 30px;
+    }
+    .about-item3 {
+        margin-top: 30px;
+    }
+    .about-item4 {
+        margin-top: 30px;
+    }
+    .about-item1::after {
+        display: none;
+    }
+    .about-item1::before {
+        display: none;
+     }
+     .about-item2::after {
+         display: none;
+     }
+     .about-item2::before {
+        display: none;
+     }
+     .about-item3::after {
+         display: none;
+     }
+     .about-item3::before {
+         display: none;
+     }
+     
+     .about-item4::after {
+        display: none;
+     }
+     .about-item4::before {
+        display: none;
+     }
+     .about-item1, .about-item2, .about-item3, .about-item4 {
+        padding: 25px 25px 25px 25px;
+        text-align: center !important;
+    }
+    .about-img::after {
+        border: none;
+     }
+     .about-item1 {
+        margin-bottom: 30px;
+    }
+    .about-item2 {
+        margin-bottom: 30px;
+    }
+    .about-item3 {
+        margin-top: 30px;
+    }
+    .about-item4 {
+        margin-top: 30px;
+    }
+
+    #protfolio {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-arow .up {
+        display: none;
+    }
+    .service-arow .down {
+        display: none;
+    }
+    .service-arow::after{
+        display: none;
+    }
+    .tex-item1::after {
+        display: none;
+    }
+    .tex-item2::after {
+        display: none;
+        
+     }
+     .ser-text {
+        padding: 10px 10px 10px 20px;
+        text-align: center;
+    }
+    .ser-title h3{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #feedback {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .feedback_main1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .feed_text_slider {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .feed_text_item {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .feed_icon::after{
+        display: none;
+    }
+    .feed_text_slider::after {
+        z-index: -1;
+    }
+    #price{
+        padding-top: 30px;
+    }
+    .price_item {
+        margin-bottom: 20px;
+    }
+
+    #counter{
+        transform: none;
+    }
+    .counter_item {
+        margin-bottom: 20px;
+    }
+
+    #team {
+        padding-top: 40px;
+    }
+    .team_item {
+        margin-bottom: 25px;
+    }
+    #brend {
+        transform: none;
+        margin-top: 30px;
+    }
+    #footer {
+       transform: none;
+       padding-top: 30px;
+       padding-bottom: 20px;
+    }
+    .footer_img {
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+    .footer_btn::after {
+        display: none;
+    }
+    .footer_item {
+        margin-top: 30px;
+    }
+    .footer_text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #copyright {
+        padding: 20px 0;
+        margin-top: 0px;
+    }
+    
+}
+/*======== xtra smail ==========*/
+@media(max-width:575.98px){
+   .navbar-brand img{
+        width: 120px;
+        margin-top: 5px;
+    }
+    #naver {
+        border-bottom: none;
+       
+    }
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: none;
+        border-color: none;
+    }
+    .navbar-nav {
+        background: rgba(0, 0, 0, 0.9);
+        margin-top: 20px;
+    }
+    #naver .naver-menu li {
+        line-height: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
+    #naver .naver-menu li a::after{
+        display: none;
+    }
+
+    .banner-conten h4 {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    .banner-conten h2 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    .banner-item {
+        height: 55vh;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .banner-text {
+        height: 55vh;
+    }
+    .banner-conten a {
+        font-size: 14px;
+        padding: 15px;
+        margin: 0 3px;
+    }
+    .banner-conten a.btn-2 {
+        padding: 15px 20px;
+    }
+    .banner-conten p {
+        padding-bottom: 25px;
+    }
+    #banner .right {
+        right: 110px;
+        top: 345px;
+    }
+    #banner .left {
+        left: 110px;
+        top: 345px;
+    }
+    #banner i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
+    #about {
+        padding-bottom: 30px;
+    }
+    .heading {
+        padding-bottom: 20px;
+    }
+    .heading h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .heading p {
+        width: 235px;
+        margin: 0 auto;
+    }
+
+    .about-item1, .about-item2, .about-item3, .about-item4 {
+        padding: 25px 20px 25px 25px;
+        text-align: center !important;
+    }
+    .about-item1 {
+        margin-bottom: 30px;
+    }
+    .about-item2 {
+        margin-bottom: 30px;
+    }
+    .about-item3 {
+        margin-top: 30px;
+    }
+    .about-item4 {
+        margin-top: 30px;
+    }
+    .about-item1::after {
+        display: none;
+    }
+    .about-item1::before {
+       display: none;
+    }
+    .about-item2::after {
+        display: none;
+    }
+    .about-item2::before {
+       display: none;
+    }
+    .about-item3::after {
+        display: none;
+    }
+    .about-item3::before {
+        display: none;
+    }
+    
+    .about-item4::after {
+       display: none;
+    }
+    .about-item4::before {
+       display: none;
+    }
+    .about-img::after {
+       border: none;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    #protfolio {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #service {
+        padding-bottom: 30px;
+    }
+    .service-arow .up {
+        display: none;
+    }
+    .service-arow .down {
+        display: none;
+    }
+    .service-arow::after{
+        display: none;
+    }
+    .ser-icon {
+        margin-bottom: 13px;
+    }
+    .ser-text {
+        padding: 20px 15px 15px 16px;
+        margin-bottom: 20px;
+    }
+    .tex-item1::after {
+       display: none;
+       
+    }
+    .tex-item2::after {
+       display: none;
+       
+    }
+    .ser-title h3{
+        padding-bottom: 15px;
+    }
+
+    #feedback {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .feedback_main1 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .feed_icon .up2 {
+        display: none;
+    }
+    .feed_icon .down2 {
+        display: none;
+    }
+    .feed_icon::after{
+        display: none;
+    }
+    .feed_text_slider {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .feed_text_item {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .feed_text_slider::after {
+        display: none;
+    }
+
+    #price{
+        padding-top: 30px;
+    }
+    .price_item {
+        margin-bottom: 20px;
+    }
+
+    #counter{
+        transform: none;
+    }
+    .counter_item {
+        margin-bottom: 20px;
+    }
+    
+    #team {
+        padding-top: 30px;
+    }
+
+    #brend{
+        transform: none;
+        margin-top: 30px;
+    }
+
+    #footer {
+        transform: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer_img {
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+    .footer_item {
+        margin-top: 25px;
+    }
+    .footer_text {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    #copyright {
+        padding: 25px 0;
+        margin-top: 0px;
+    }
+    .copy_text p {
+        line-height: 20px;
+    }
+}
